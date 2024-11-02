@@ -1,0 +1,83 @@
+.footer {
+    padding: 4rem 2rem 2rem;
+    color: white;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logoSection {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .logo {
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .sectionsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .section {
+    padding: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #f39c12, #e74c3c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .sectionContent {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sectionContent li {
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .sectionContent li:hover {
+    opacity: 1;
+  }
+  
+  .bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+  
+  .socialMedia {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .socialIcon {
+    font-size: 1.5rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .socialIcon:hover {
+    opacity: 1;
+  }
+  
+  .newsletterSubtitle {
+    opacity: 0.8;
+    margin-top: 0.5rem;
+  }

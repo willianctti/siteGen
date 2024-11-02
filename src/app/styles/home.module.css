@@ -1,0 +1,208 @@
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #312e81, #581c87, #831843);
+  }
+  
+  .navbar {
+    position: fixed;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    z-index: 50;
+  }
+  
+  .navContent {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navButton {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.2s;
+  }
+  
+  .navButton:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .heroSection {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8rem 1.5rem 5rem;
+  }
+  
+  .heroContent {
+    text-align: center;
+    position: relative;
+  }
+  
+  .decorativeBlob1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 24rem;
+    height: 24rem;
+    background: rgba(168, 85, 247, 0.3);
+    border-radius: 9999px;
+    filter: blur(64px);
+    z-index: -1;
+  }
+  
+  .decorativeBlob2 {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 18rem;
+    height: 18rem;
+    background: rgba(236, 72, 153, 0.3);
+    border-radius: 9999px;
+    filter: blur(64px);
+    z-index: -1;
+  }
+  
+  .title {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(to right, #bfdbfe, #fbcfe8, #e9d5ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    color: #d1d5db;
+    margin-bottom: 2.5rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .ctaButton {
+    display: inline-flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 9999px;
+    background: linear-gradient(to right, #ec4899, #8b5cf6);
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    transform: translateY(0);
+    transition: all 0.2s;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ctaButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featuresSection {
+    margin-top: 8rem;
+  }
+  
+  .featuresTitle {
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-align: center;
+    color: #e5e7eb;
+    margin-bottom: 1rem;
+  }
+  
+  .featuresSubtitle {
+    color: #9ca3af;
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 768px) {
+    .featuresGrid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  .featureCard {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: translateY(0);
+    transition: all 0.2s;
+  }
+  
+  .featureCard:hover {
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-0.25rem);
+  }
+  
+  .featureIcon {
+    color: #c4b5fd;
+    margin-bottom: 1rem;
+    transform: scale(1);
+    transition: transform 0.2s;
+  }
+  
+  .featureCard:hover .featureIcon {
+    transform: scale(1.1);
+  }
+  
+  .featureTitle {
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    color: #e5e7eb;
+  }
+  
+  .featureDescription {
+    color: #9ca3af;
+  }
+  
+  .footer {
+    margin-top: 8rem;
+    text-align: center;
+    color: #9ca3af;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .githubLink {
+    display: flex;
+    align-items: center;
+    color: #9ca3af;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .githubLink:hover {
+    color: #f3f4f6;
+  }

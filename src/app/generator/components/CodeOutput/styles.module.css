@@ -1,0 +1,17 @@
+.container {
+    padding: 20px;
+    background-color: #1e1e1e;
+    position: relative;
+  }
+  
+  .copyButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+  }
+  
+  .codeBlock {
+    margin: 0 !important;
+    border-radius: 8px;
+  }

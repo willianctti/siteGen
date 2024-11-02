@@ -1,0 +1,96 @@
+.container {
+    padding: 24px;
+    background-color: #1f2937;
+    color: #f3f4f6;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .title {
+    margin-bottom: 24px !important;
+    color: #f3f4f6 !important;
+    font-size: 1.5rem !important;
+  }
+
+  .colorPicker {
+    margin: 12px 0;
+  }
+  
+  .colorPickerWrapper {
+    position: relative;
+  }
+  
+  .colorPreview {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #374151;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .colorPreview:hover {
+    transform: scale(1.05);
+  }
+  
+  .colorPickerPopover {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    margin-top: 12px;
+    background: #1f2937;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    padding: 16px;
+  }
+  
+  .serviceItem, .testimonialItem {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  
+  .gradientPicker {
+    display: flex;
+    gap: 16px;
+    margin: 10px 0;
+  }
+
+  .socialMediaConfig {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .socialMediaItem {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .socialMediaItem > * {
+    flex: 1;
+  }
+
+  .socialMediaItem > button {
+    flex: 0;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  .githubLink {
+    color: #9ca3af;
+    transition: color 0.2s;
+  }
+
+  .githubLink:hover {
+    color: #f3f4f6;
+  }
